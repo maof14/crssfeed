@@ -1,0 +1,17 @@
+{
+    "name": "maof14/crssfeed",    
+    "type": "library",
+    "description": "PHP class for displaying a RSS feed",
+    "keywords": ["module", "framework", "mvc", "micro", "education"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mattias Olsson",
+            "email": "mattias.olsson@hotmail.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    }
+}
