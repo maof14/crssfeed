@@ -1,8 +1,8 @@
-﻿CRSSFeed
+ CRSSFeed
 ========
 PHP class to get content of one or more RSS feeds. This repository also contains SimplePie. See information and license on that in the SimplePie dir. 
 
-By Mattias Olsson
+By Mattias Olsson (maof14)
 
 Licence
 ----------
