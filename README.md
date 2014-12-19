@@ -17,13 +17,13 @@ Next, echo the method getFeed() on the object to display the feed.
 Example: 
 
 ```
-	$feed = new CRSSFeed(  
-		[  
-			"http://addresstofeed.com/rss",  
-			"http://addresstoanotherfeed.com/rss"  
-		]  
-	);  
-	echo $feed->getFeed();  
+$feed = new CRSSFeed(  
+	[  
+		"http://addresstofeed.com/rss",  
+		"http://addresstoanotherfeed.com/rss"  
+	]  
+);  
+echo $feed->getFeed();  
 ```
 
 Licence
