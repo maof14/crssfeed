@@ -16,7 +16,7 @@ Next, echo the method getFeed() on the object to display the feed.
 
 Example: 
 
-`
+```
 	$feed = new CRSSFeed(  
 		[  
 			"http://addresstofeed.com/rss",  
@@ -24,7 +24,7 @@ Example:
 		]  
 	);  
 	echo $feed->getFeed();  
-`
+```
 
 Licence
 ----------
