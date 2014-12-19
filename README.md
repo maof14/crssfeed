@@ -1,8 +1,18 @@
  CRSSFeed
 ========
-PHP class to get content of one or more RSS feeds. This repository also contains SimplePie. See information and license on that in the SimplePie dir. 
+PHP module class to get content of one or more RSS feeds. This repository also contains SimplePie. See information and license on that in the SimplePie dir. 
 
 By Mattias Olsson (maof14)
+
+Installation
+------------
+To implement crssfeed on your site, get a copy of this repository using git clone. 
+
+Make sure you have a path for the cache available at the defined location, if you do not want the feed to download new information on each request. Using a cache is better for your system performance. You can adjust this path in the module file, CRSSFeed.php. 
+
+Initialize a instance of the module, sending in a RSS-feed to the constructor, and a duration for the cache if you like. 
+
+Next, echo the method getFeed() on the object to display the feed. 
 
 Licence
 ----------
